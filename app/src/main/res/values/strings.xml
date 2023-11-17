@@ -1,0 +1,25 @@
+<resources>
+    <string name="Lab">GestionLab</string>
+    <string name="app_name">Docentes</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="btn1">Usuario</string>
+    <string name="btn2">Laboratorios</string>
+    <string name="btn3">Equipos</string>
+    <string name="btn4">Reportes</string>
+    <string name="Menu">Menu Principal</string>
+    <string name="sigin">Iniciar sesión</string>
+    <string name="fpassword">¿Olvido su contraseña?</string>
+    <string name="btp">Guardar cambios</string>
+    <string name="Title1">Laboratorios</string>
+
+    <!---REPORTES DE FALLOS-->
+    <string name="report">Reportes de fallos</string>
+    <string name="btreport">Enviar reporte</string>
+    <string name="txt1">Por favor describa la incidencia</string>
+    <string name="txLab">Seleccione el laboratorio donde ocurrio la incidencia</string>
+    <string-array name="Labs_array">
+        <item>Laboratorio 4114</item>
+        <item>Laboratorio 4113</item>
+        <item>laboratorio 4112</item>
+    </string-array>
+</resources>

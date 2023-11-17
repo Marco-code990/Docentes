@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".reportes">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textf"
+        android:text="@string/report"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textf"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="25dp"
+        android:backgroundTint="@color/white">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/repo"
+            android:hint="Describe el fallo"
+            android:layout_marginTop="25dp"
+            android:layout_margin="16dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_labs"
+
+            android:layout_below="@+id/repo"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:entries="@array/Labs_array"
+            android:layout_marginTop="80dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_labs"
+            android:text="@string/btreport"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="150dp"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

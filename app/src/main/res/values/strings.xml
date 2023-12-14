@@ -11,6 +11,7 @@
     <string name="fpassword">¿Olvido su contraseña?</string>
     <string name="btp">Guardar cambios</string>
     <string name="Title1">Laboratorios</string>
+    <string name="Title2">Datos del usuario</string>
 
     <!---REPORTES DE FALLOS-->
     <string name="report">Reportes de fallos</string>

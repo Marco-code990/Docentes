@@ -39,55 +39,59 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
 
-            <EditText
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tittle_1"
+                android:text="@string/Title2"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"/>
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/name"
                 android:hint="Nombre(s)"
                 android:textColor="@color/black"
+                android:textSize="25dp"
                 />
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/AP"
-                android:hint="Apellido paterno"
+                android:hint="Apellido Paterno"
                 android:textColor="@color/black"
+                android:textSize="25dp"
                 />
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/AM"
-                android:hint="Apellido materno"
+                android:hint="Apellido Materno"
                 android:textColor="@color/black"
+                android:textSize="25dp"
                 />
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/plantel"
-                android:hint="Plantel"
+                android:id="@+id/correo"
+                android:hint="E-Mail"
                 android:textColor="@color/black"
+                android:textSize="25dp"
                 />
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/cu"
-                android:hint="CURP"
+                android:id="@+id/tipo"
+                android:hint="Tipo de usuario"
                 android:textColor="@color/black"
+                android:textSize="25dp"
                 />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/rfc"
-                android:hint="RFC"
-                android:textColor="@color/black"
-                />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btc"
-                android:text="@string/btp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>

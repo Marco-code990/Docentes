@@ -39,6 +39,18 @@ public class menu1 extends AppCompatActivity {
             }
         });
 
+        CardView cardView3 = findViewById(R.id.card3);
+        // Agrega un OnClickListener al CardView
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define aquí lo que deseas hacer cuando se haga clic en el CardView
+                // Por ejemplo, puedes abrir una nueva actividad
+                Intent intent = new Intent(menu1.this, Equipos.class);
+                startActivity(intent);
+            }
+        });
+
         CardView cardView4 = findViewById(R.id.card4);
         // Agrega un OnClickListener al CardView
         cardView4.setOnClickListener(new View.OnClickListener() {

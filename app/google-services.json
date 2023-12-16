@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710523310018",
+    "project_id": "gestionlab-a1f95",
+    "storage_bucket": "gestionlab-a1f95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710523310018:android:542b9b2d71b081929a505b",
+        "android_client_info": {
+          "package_name": "ipn.docentes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD88bCPVoHOSdUIf1Z8tubzuswJCBpfEUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

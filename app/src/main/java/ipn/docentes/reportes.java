@@ -53,7 +53,7 @@ public class reportes extends AppCompatActivity {
         String descripcion = descripcionEditText.getText().toString();
         String idLaboratorio = spinnerLabs.getSelectedItem().toString();
 
-        String url= "http://192.168.100.148/Administrador/insert_report.php?descripcion="+descripcion+"&id_laboratorio"+idLaboratorio;
+        String url= "http://192.168.100.40/Administrador/insert_report.php?descripcion="+descripcion+"&id_laboratorio"+idLaboratorio;
 
         RequestQueue servicio= Volley.newRequestQueue(this);
         StringRequest respuesta= new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {

@@ -7,6 +7,15 @@
     android:background="@drawable/background2"
     tools:context=".Equipos">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtm"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Menu"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
     <Button
         android:id="@+id/botonEncender"
         android:layout_width="wrap_content"

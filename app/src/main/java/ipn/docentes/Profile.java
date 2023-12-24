@@ -32,7 +32,7 @@ public class Profile extends AppCompatActivity {
         SharedPreferences preferences= getSharedPreferences("user_data", MODE_PRIVATE);
         String correo_usuario= preferences.getString("correo", "");
 
-        buscarUsuarios("http://192.168.100.148/Administrador/obtener_usuario.php",correo_usuario);
+        buscarUsuarios("http://192.168.100.40/Administrador/obtener_usuario.php",correo_usuario);
     }
 
     public void Mostrar(){

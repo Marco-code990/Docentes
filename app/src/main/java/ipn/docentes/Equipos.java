@@ -4,13 +4,14 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 public class Equipos extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +28,8 @@ public class Equipos extends AppCompatActivity {
     }
 
     public void encenderComputadora(View view) {
-        String macAddress = "00:11:22:33:44:55"; // Dirección MAC de la computadora
-        String ipAddress = "192.168.1.2"; // Dirección IP de la computadora
+        String macAddress = "00:1D:92:E6:6E:13"; // Dirección MAC de la computadora
+        String ipAddress = "192.168.100.169"; // Dirección IP de la computadora
 
         // Crear instancia de WakeOnLanTask y ejecutar la tarea asíncrona
         new WakeOnLanTask().execute(macAddress, ipAddress);

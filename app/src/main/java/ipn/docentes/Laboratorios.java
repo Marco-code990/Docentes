@@ -45,7 +45,7 @@ public class Laboratorios extends AppCompatActivity implements LabAdapter.OnLabI
             List<LabModel> labList = new ArrayList<>();
 
             try {
-                URL url = new URL("http://192.168.100.148/Administrador/obtener_lab.php");
+                URL url = new URL("http://192.168.100.40/Administrador/obtener_lab.php");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
                 BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
